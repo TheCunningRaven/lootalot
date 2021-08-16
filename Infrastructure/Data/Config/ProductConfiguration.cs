@@ -16,7 +16,7 @@ namespace Infrastructure.Data.Config
             builder.HasOne(b => b.ProductBrand).WithMany()
                 .HasForeignKey(p => p.ProductBrandId);
             builder.HasOne(b => b.ProductType).WithMany()
-                .HasForeignKey(p => p.ProductTypeId);
+                .HasForeignKey(c => c.ProductTypeId);
         }
     }
 }
