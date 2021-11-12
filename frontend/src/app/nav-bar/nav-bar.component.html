@@ -4,21 +4,40 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Hidden brand</a>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a href="#">
+            <img src="/assets/images/logo.PNG" alt="logo" style="max-height: 50px;">
+        </a>
+        <!-- <a class="navbar-brand" href="#">lootalot</a> -->
+        <div class="navbar-nav-scroll">
+            <ul class="navbar-nav bd-navbar-nav flex-row">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+        </div>
+
+        <ul class="navbar-nav ml-md-auto">
+            <li class="nav-item">
+                <a  (click)="test()" class="nav-link position-relative" href="#">
+                    <span>Cart </span>
+                    <i class="fa fa-shopping-cart mr-4" aria-hidden="true"></i>
+                    <span class="cart-no">5</span>
+                </a>
+            </li>
+            <li class="nav-item mr-2">
+                <a class="nav-link btn btn-outline-secondary">Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link btn btn-primary">Sign Up</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
     </div>
 </nav>
