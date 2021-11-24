@@ -3,10 +3,8 @@
         <section class="col-2 mt-20">
             <div id="sort" class="">
                 <h5>Sort</h5>
-                <select name="" id="">
-                    <option value="Alphabetical">Alphabetical</option>
-                    <option value="Price: High to Low">Price: High to Low</option>
-                    <option value="Price: Low to High">Price: Low to High</option>
+                <select name="" id="" (change)="onSortSelect($event.target.value)">
+                    <option *ngFor="let option of sortOptions" [value]="option.value">{{option.name}}</option>
                 </select>
             </div>
             <div class="my-3">
@@ -21,7 +19,8 @@
                 <h5>Types</h5>
                 <ul class="list-group mt-3">
                     <li class="list-group-item " *ngFor="let type of types"
-                        [class.active]="type.id === this.selectedTypeId" [value]="type.id" (click)="filterType(type.id)">
+                        [class.active]="type.id === this.selectedTypeId" [value]="type.id"
+                        (click)="filterType(type.id)">
                         {{type.name}}</li>
                 </ul>
             </div>
@@ -42,7 +41,12 @@
                     <app-product [product]="item"></app-product>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-xs-12 col-12">
+                    <pagination [totalItems]="66" (pageChanged)="pageChanged($event)">
+                    </pagination>
+                </div>
+            </div>
         </section>
-
     </div>
 </div>

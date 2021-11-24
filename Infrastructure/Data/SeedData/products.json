@@ -1,146 +1,146 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "ImageUrl": "images/products/sb-ang1.png",
+    "Name": "TechTac 3000 i5",
+    "Description": "i5 Intact 2,2GhZ - 6GB DDR4 - 500 HDD - HD ITel 5200 Graphics",
+    "Price": 10000,
+    "ImageUrl": "images/products/Laptop1.PNG",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "ImageUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "ImageUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "ImageUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "ImageUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "ImageUrl": "images/products/sb-ts1.png",
+    "Name": "Phony P-21 i7",
+    "Description": "i7 Intact 2,5GhZ - 8GB DDR4 - 256 SSD - RTX G-Force 5200",
+    "Price": 15000,
+    "ImageUrl": "images/products/Laptop2.PNG",
     "ProductTypeId": 1,
     "ProductBrandId": 5
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "ImageUrl": "images/products/hat-core1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "ImageUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "ImageUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "ImageUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
+    "Name": "AZeus A-770 i9",
+    "Description": "i9 Intact 3GhZ - 16GB DDR4 - 512 SSD - RTX G-Force 520X",
+    "Price": 20000,
+    "ImageUrl": "images/products/Laptop3.PNG",
+    "ProductTypeId": 1,
     "ProductBrandId": 3
   },
   {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "ImageUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
+    "Name": "AZeus A-540",
+    "Description": "i5 Intact 2,7GhZ - 8GB DDR5 - 256 SSD - RTX G-Force 4100",
+    "Price": 12000,
+    "ImageUrl": "images/products/Laptop4.PNG",
+    "ProductTypeId": 1,
     "ProductBrandId": 3
   },
   {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "ImageUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
+    "Name": "TS Telcaster 20 i5",
+    "Description": "i5 Intact 2,9GhZ - 8GB DDR6 - 256 SSD - RTX G-Force 420X",
+    "Price": 18000,
+    "ImageUrl": "images/products/Laptop5.PNG",
+    "ProductTypeId": 1,
     "ProductBrandId": 4
   },
   {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "ImageUrl": "images/products/glove-react2.png",
+    "Name": "Volcanot VGA to HDMI Cable",
+    "Description": "VGA output to HDMI input female to male adapter cable",
+    "Price": 400,
+    "ImageUrl": "images/products/cable1.PNG",
     "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "ImageUrl": "images/products/boot-redis1.png",
-    "ProductTypeId": 3,
     "ProductBrandId": 6
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189,
-    "ImageUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
+    "Name": "Volcanot HDMI (3m) Cable",
+    "Description": "3m long HDMI 2.0 cable",
+    "Price": 50,
+    "ImageUrl": "images/products/Cable2.PNG",
+    "ProductTypeId": 4,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "StaxTech USB-C to HDMI Cable",
+    "Description": "1m long black USB-C to HDMI cable ",
+    "Price": 80,
+    "ImageUrl": "images/products/Cable3.PNG",
+    "ProductTypeId": 4,
     "ProductBrandId": 2
   },
   {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199,
-    "ImageUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
+    "Name": "StaxTech VGA Cable",
+    "Description": "5m long black regular VGA-VGA adapter cable",
+    "Price": 35,
+    "ImageUrl": "images/products/Cable4.PNG",
+    "ProductTypeId": 4,
     "ProductBrandId": 2
   },
   {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "ImageUrl": "images/products/boot-ang2.png",
+    "Name": "TechTac M-2T Mouse",
+    "Description": "Plain black wireless mouse - 75g - 2200 dpi",
+    "Price": 200,
+    "ImageUrl": "images/products/Mouse1.PNG",
     "ProductTypeId": 3,
     "ProductBrandId": 1
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "ImageUrl": "images/products/boot-ang1.png",
+    "Name": "TS Cruiser Mouse",
+    "Description": "Matte grey wireless mouse - 65g - 3200 dpi",
+    "Price": 350,
+    "ImageUrl": "images/products/Mouse2.PNG",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "TS Flatboy Mouse",
+    "Description": "Charcoal black wireless mouse - 67g - 2700 dpi",
+    "Price": 160,
+    "ImageUrl": "images/products/Mouse3.PNG",
+    "ProductTypeId": 3,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "TechTac TikTak Mouse",
+    "Description": "Shiny black wireless mouse - 73g - 2600 dpi",
+    "Price": 230,
+    "ImageUrl": "images/products/Mouse4.PNG",
     "ProductTypeId": 3,
     "ProductBrandId": 1
+  },
+  {
+    "Name": "Phony Bluetooth Wireless Headphones",
+    "Description": "Round can black wireless headphones (8 – 20000 Hz)",
+    "Price": 1900,
+    "ImageUrl": "images/products/Headphone1.PNG",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5
+  },
+  {
+    "Name": "AZeus AX-940 Box Headphones",
+    "Description": "Square can black wireless headphones (8 – 20000 Hz)",
+    "Price": 2199,
+    "ImageUrl": "images/products/Headphone2.PNG",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Volcanot Amber Gaming Headpones",
+    "Description": "High quality red gaming can wireless headphones(10 – 18000 Hz)",
+    "Price": 899,
+    "ImageUrl": "images/products/Headphone3.PNG",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Volcanot Hexa-Blue Gaming Headphones",
+    "Description": "High quality blue gaming wireless headphones(4 – 25000 Hz)",
+    "Price": 1899,
+    "ImageUrl": "images/products/Headphone4.PNG",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Phony Widehead Gym Headphones",
+    "Description": "Matte black wide-head headphones for people with really wide heads High quality gaming can wireless headphones(4 – 22000 Hz)",
+    "Price": 2600,
+    "ImageUrl": "images/products/Headphone5.PNG",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5
   }
 ]

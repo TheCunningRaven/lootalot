@@ -12,8 +12,11 @@ export class ShopService {
   constructor(private http: HttpClient) { 
 
   }
-  getProducts(brandId?:number,typeId?:number){ // Hover over to see return type. USE INTERFACE i.e IPagination
+  getProducts(brandId?:number,typeId?:number, sort?:string){ // Hover over to see return type. USE INTERFACE i.e IPagination
     let params = new HttpParams();
+    if(sort){
+      params = params.append('sort', sort)
+    }
     if (brandId){
       params = params.append('brandId', brandId.toString());
     }
