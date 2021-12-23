@@ -11,7 +11,7 @@
                 <h5>Brands</h5>
                 <ul class="list-group mt-3">
                     <li class="list-group-item " *ngFor="let brand of brands"
-                        [class.active]="brand.id === this.selectedBrandId" [value]="brand.id"
+                        [class.active]="brand.id === this.shopParams.brandId" [value]="brand.id"
                         (click)="filterBrand(brand.id)">{{brand.name}}</li>
                 </ul>
             </div>
@@ -19,7 +19,7 @@
                 <h5>Types</h5>
                 <ul class="list-group mt-3">
                     <li class="list-group-item " *ngFor="let type of types"
-                        [class.active]="type.id === this.selectedTypeId" [value]="type.id"
+                        [class.active]="type.id === this.shopParams.typeId" [value]="type.id"
                         (click)="filterType(type.id)">
                         {{type.name}}</li>
                 </ul>
@@ -27,9 +27,11 @@
         </section>
         <section class="col-10">
             <div class="d-flex justify-content-between align-items-center pb-2">
-                <header>
-                    <span>Showing <strong>10</strong> of <strong>20</strong> Results</span>
-                </header>
+                <app-paging-header
+                    [totalCount]="totalCount"
+                    [pageSize]="shopParams.pageSize"
+                    [pageNumber]="shopParams.pageNumber"
+                ></app-paging-header>
                 <div class="form-inline mt-2">
                     <input type="text" class="form-control mr-2" style="width:300px" placeholder="Search">
                     <button class="btn btn-outline-primary my-2">Search</button>
@@ -41,10 +43,13 @@
                     <app-product [product]="item"></app-product>
                 </div>
             </div>
-            <div class="row">
+            <div *ngIf="totalCount && totalCount > 0" class="row">
                 <div class="col-xs-12 col-12">
-                    <pagination [totalItems]="66" (pageChanged)="pageChanged($event)">
-                    </pagination>
+                  <app-paginator
+                  [pageSize]="shopParams.pageSize"
+                  [totalCount]="totalCount"
+                  (pageChanged)="onPageChanged($event)"
+                  ></app-paginator>
                 </div>
             </div>
         </section>

@@ -4,6 +4,7 @@ import { IPagination } from '../shared/interfaces/pagination';
 import { IProductType } from '../shared/interfaces/productType';
 import { IProductBrand } from '../shared/interfaces/productBrand';
 import { map } from 'rxjs/operators';
+import { ShopParameters } from '../shared/classes/shopParameters';
 @Injectable({
   providedIn: 'root'
 })
@@ -12,17 +13,18 @@ export class ShopService {
   constructor(private http: HttpClient) { 
 
   }
-  getProducts(brandId?:number,typeId?:number, sort?:string){ // Hover over to see return type. USE INTERFACE i.e IPagination
+  getProducts(shopParams:ShopParameters){ // Hover over to see return type. USE INTERFACE i.e IPagination
     let params = new HttpParams();
-    if(sort){
-      params = params.append('sort', sort)
+    if (shopParams.brandId !== 0){
+      params = params.append('brandId', shopParams.brandId.toString());
     }
-    if (brandId){
-      params = params.append('brandId', brandId.toString());
+    if (shopParams.typeId !== 0){
+      params = params.append('typeId', shopParams.typeId.toString());
     }
-    if (typeId){
-      params = params.append('typeId', typeId.toString());
-    }
+    params = params.append('sort', shopParams.sort)
+    params = params.append('pageIndex',shopParams.pageNumber.toString());
+    params = params.append('pageSize',shopParams.pageSize.toString());
+
     return this.http.get<IPagination>(this.baseUrl + 'products', {observe: 'response', params})
       .pipe(
         map(response => {
